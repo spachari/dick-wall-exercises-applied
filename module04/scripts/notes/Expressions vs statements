@@ -1,0 +1,39 @@
+Expressions Vs Statements
+
+An expression is something that has a return value but a statement does not return anything useful (it returns a void)
+
+In functional programming, a pure expression does not have any effects other than the one seen in the return value.
+
+This is something known as referential transparency and the idea is that you should be able to replace that function with it's result,
+basically replacing the result that it would have given back without doing anything else and it should not have any effect on the
+programs outcome. That means anything that is done is visible in the effects that are returned and it does not have other side effects.
+if it did, it would not work, the referential transparency means that something else changed (that we are not seeing in that return type).
+
+Scala does not have a void key word, void is the absence of a return type, but everything in scala has a return type.
+This is importnat for completing the type system.
+
+So for statements the return type is Unit (), conversely the return type of Unit denotes an expression.
+
+
+For example
+//an expression
+val x = 1 + 2
+
+if you replace 1 + 2 with 3, the program will do exactly the same thing.
+
+//a statement
+println(3)
+
+def multiply(x : Int) = {
+    println(x)
+    x * 2
+}
+
+multiply(2) cannot be replaced with it's value (because println(2) will not work). so this is not referential transparency
+//if you ignore this one the program will not do the same thing. so this is not referential transparency
+
+The only thing we can do with Unit is we can compare it with itself.
+val un = println(3)
+
+un == () // will return true
+

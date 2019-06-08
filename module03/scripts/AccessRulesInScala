@@ -1,0 +1,2 @@
+private and protected are keywords in the language and restrict access either to the class or to the class and its subtypes.
+While there is a public access type in Scala, it is the default for vals and defs, and there is no explicit keyword for it.

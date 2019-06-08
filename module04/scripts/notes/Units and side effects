@@ -1,0 +1,36 @@
+A Unit return type implies that a method must have a side effect to do something useful
+
+example, it must do I/O or update or se a variable
+
+A non-Unit return type does not mean that there are no side effects, however. There can be just the effects that are returned,
+but it does not guarantee that we are not going to get any side effects, only well returned code will do that
+
+
+For example
+
+def multiply(x : Int) : Int = {
+    println(x) //side effect even when the return type is Int
+    x * 2
+}
+
+Many built in constructs in Scala are expressions rather than statements few return only Unit
+
+Even if you have side-effects, there maybe something more useful than unit we can return, we can always ignore them if we dont want that return type
+
+What some people do is, instead of returning Unit, they can return this. Atleast then we can then start to chain up the function calls in a fluent way
+
+There is only one instance of Unit (), sometimes referred to as empty tuple
+
+Unit is descended from AnyVal like the primitive types.
+
+scala> val list = 1 :: 2 :: Nil
+list: List[Int] = List(1, 2)
+
+Scala will infer the least upper bound, the most specific one that represents all of the items (it is AnyVal)
+
+scala> true :: 1 :: 2 :: Nil
+res45: List[AnyVal] = List(true, 1, 2)
+
+Even after you add an Unit, it is still AnyVal
+scala> () :: true :: 1 :: 2 :: Nil
+res46: List[AnyVal] = List((), true, 1, 2)

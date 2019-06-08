@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="exercises-applied_7010" />
+    <profile name="sbt 2" modules="module01,module05,module04,Scala-Applied-Exercises,module02,module06,module03">
+      <option name="deprecationWarnings" value="true" />
+    </profile>
+  </component>
+</project>

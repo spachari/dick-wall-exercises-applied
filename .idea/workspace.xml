@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0beebb5-9774-4935-bcb0-7e67cdbb8e0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Scalaz/.idea/externalDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scalaz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scalaz/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scalaz/.idea/modules/scalaz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scalaz/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scalaz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/externalDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/libraries/sbt__com_chuusai_shapeless_2_12_2_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/libraries/sbt__org_typelevel_macro_compat_2_12_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/libraries/scala_sdk_2_12_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/modules/Shapeless.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/modules/shapeless-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/ADTMeaning.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/AlternativeEncodings.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/BasicGenericClassExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/HListIntro.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter1/ADTMeaning.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter1/AlternativeEncodings.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter1/BasicGenericClassExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter1/objectHList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/AlgebraicDataTypes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/GenericCoProducts.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/GenericIntroduction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/HList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/ProductsAndCoProductsShapeless.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/ProductsAndCoProductsShapeless.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/ProductsAndCoProductsViaTypes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/chapter2/SwitcingEncodingsUsingGenerics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Shapeless/src/main/scala/objectHList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__antlr_antlr_2_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_101tec_zkclient_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_carrotsearch_hppc_0_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_clearspring_analytics_stream_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_esotericsoftware_minlog_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_8_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_8_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_8_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_8_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_8_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_github_luben_zstd_jni_1_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_google_guava_guava_11_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_googlecode_javaewah_JavaEWAH_0_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_jamesmurty_utils_java_xmlbuilder_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_twitter_chill_java_0_8_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_twitter_parquet_hadoop_bundle_1_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_univocity_univocity_parsers_2_5_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_vlkan_flatbuffers_1_2_0_3f79e055_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__com_yammer_metrics_metrics_core_2_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_codec_commons_codec_1_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_dbcp_commons_dbcp_1_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__commons_pool_commons_pool_1_5_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__io_airlift_aircompressor_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__io_netty_netty_3_9_9_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__io_netty_netty_all_4_1_17_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_activation_activation_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_annotation_javax_annotation_api_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_jdo_jdo_api_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javax_xml_stream_stax_api_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__javolution_javolution_5_5_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__log4j_apache_log4j_extras_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__net_hydromatic_eigenbase_properties_1_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__net_iharder_base64_2_3_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_9_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__net_razorvine_pyrolite_4_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_antlr_ST4_4_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_antlr_antlr_runtime_3_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_antlr_stringtemplate_3_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_arrow_arrow_format_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_arrow_arrow_memory_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_arrow_arrow_vector_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_bahir_spark_streaming_twitter_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_calcite_calcite_avatica_1_2_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_calcite_calcite_core_1_2_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_calcite_calcite_linq4j_1_2_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_commons_commons_crypto_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_curator_curator_client_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_curator_curator_framework_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_derby_derby_10_12_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_directory_api_api_asn1_api_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_directory_api_api_util_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_directory_server_apacheds_i18n_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_kafka_kafka_2_11_0_8_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_kafka_kafka_clients_0_8_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_orc_orc_core_1_4_4_nohive_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_orc_orc_mapreduce_1_4_4_nohive_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_8_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_hive_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_kvstore_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_streaming_kafka_2_11_1_6_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_streaming_twitter_2_11_1_6_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_thrift_libfb303_0_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_thrift_libthrift_0_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_bouncycastle_bcprov_jdk15on_1_52_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_datanucleus_datanucleus_api_jdo_3_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_datanucleus_datanucleus_core_3_2_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_datanucleus_datanucleus_rdbms_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_htrace_htrace_core_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_iq80_snappy_snappy_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_javassist_javassist_3_18_1_GA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_jodd_jodd_core_3_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_json4s_json4s_ast_2_11_3_6_0_M2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_json4s_json4s_core_2_11_3_6_0_M2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_json4s_json4s_jackson_2_11_3_6_0_M2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_json4s_json4s_native_2_11_3_6_0_M2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_json4s_json4s_scalap_2_11_3_6_0_M2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_lz4_lz4_java_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_objenesis_objenesis_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scalaj_scalaj_http_2_11_2_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_scalatest_scalatest_2_11_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_spark_project_hive_hive_exec_1_2_1_spark2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_spark_project_hive_hive_metastore_1_2_1_spark2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_twitter4j_twitter4j_core_4_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_twitter4j_twitter4j_stream_4_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__stax_stax_api_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__xerces_xercesImpl_2_9_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__xml_apis_xml_apis_1_3_04_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/resources/application_lab.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/resources/application_prod.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/GetColumnNameAndDataType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/complexDataTypes/ReadingJsonInputStructAndMapType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/CalclulateDaysToRun.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/CasulaLoaderOld.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/attribute/AttributeLoader.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/attribute/CasulaDataMaker.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/domain/Attribute.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/domain/Attribute_Metadata.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/domain/CasulaData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/exceptions/CannotLoadInactiveAttributeException.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/exceptions/CasulaLoaderExceptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/exceptions/DataTypeMismatchException.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/exceptions/SameNameUsedByDifferentTeamException.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/rule/AttributeRuleChecker.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/scripts/GetAndParseToJson.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/scripts/PutTest.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/scripts/WorkingVersionOfCasula.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/test/CasulaLoaderTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/utils/CheckRuleAndLoadCasula.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/utils/LoaderUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/casulaLoader/web/EndPointConnector.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SparkScalaCourses/src/main/scala/com.sundogsoftware.spark/Ratings/sparkSql/customdatatype/ReadFromResourcesFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../data-highway-poc1/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/externalDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_12_2_5_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_config_1_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_12_3_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__io_aeron_aeron_client_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__io_aeron_aeron_driver_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__io_netty_netty_3_10_6_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_agrona_agrona_0_9_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scalacheck_scalacheck_2_12_1_13_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scalamock_scalamock_2_12_4_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/Scala-Applied-Exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/exercises-applied-part2-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module07-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module08-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module09-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module10-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module11-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/modules/module11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/01-classes-and-abstract.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/02-uniform-access-and-overrides.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/03-val-def-lazy.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/04-inheriting-extends.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/05-superclass-methods-constructors.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/06-override.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/07-final.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/08-case-classes-intro.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module07/notes/09-inheritance-and-composition.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module08/notes/01-top-types.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module08/notes/02-null-and-nothing.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module08/notes/03-type-calculus.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Part2/exercises-applied-part2/module08/notes/04-primitives-and-implicit-conversions.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalacheck_scalacheck_2_12_1_13_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalamock_scalamock_2_12_4_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Scala-Applied-Exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/exercises-applied-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module01-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module02-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module03-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module04-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module05-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module06-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/scripts/RightAssociationVsNormalLeftAssociation.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/scripts/multiplicationTable.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/scripts/AccessRulesInScala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/scripts/AddingIntToRationalImplicitWay/02-IntThatCanAddRational.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/scripts/AddingIntToRationalImplicitWay/implicitRules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/scripts/constructRationalWithInt/02-MyRationalAuxillaryConstructor.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/scripts/constructRationalWithInt/02-MyRationalWithCompanionObjects.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/MatchExpressions.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/ReturnTypesInScalaExpressions.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/ReturnTypesInScalaExpressions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/ReturningSomethingOtherThanUnit.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/String-Interpolation.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/Types In Scala Expressions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/Units and side effects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/WhileLoop.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/forExpression/For-and-for-yield.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/forExpression/For-expression-Not-JustForLooping.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/scripts/notes/forExpression/ForExpressionDeeper.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/02-NestedMethods.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/03-AnomyousFunctions.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/03-Function Literal.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/03a-How do function literals work.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/04-higher-order-functions.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/05-Placeholder Syntax.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/06-partial-application.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/07-closures.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/08-partial-function.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/09-varargs-and-expansion.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/notes/10-default-named-params.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module05/src/test/scala/koans/support/Test.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/notes/01-simplifying-with-functions.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/notes/03-currying-and-multiple-param-lists.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/notes/04-curried-generic-hofs.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/notes/05-function-arity.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/notes/06-fruity-loops.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/src/test/scala/koans/support/Test.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules/untitled-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/externalDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_googlecode_slf4j_maven_plugin_log_slf4j_maven_plugin_log_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_avro_compatibility_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_jasvorno_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_exceptions_4_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_partition_4_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_schema_4_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_works_api_4_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_works_core_4_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_works_maven_plugin_4_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_works_paver_impl_4_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_hotels_road_road_works_test_4_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__io_netty_netty_3_5_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_avro_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_avro_compiler_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_avro_mapred_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_avro_tools_nodeps_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_trevni_avro_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_trevni_avro_tests_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_trevni_core_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_avro_trevni_core_tests_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_maven_maven_model_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hotel-review/hotel-review.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/module01/target/" />
+    <ignored path="$PROJECT_DIR$/module05/target/" />
+    <ignored path="$PROJECT_DIR$/module04/target/" />
+    <ignored path="$PROJECT_DIR$/module02/target/" />
+    <ignored path="$PROJECT_DIR$/module06/target/" />
+    <ignored path="$PROJECT_DIR$/module03/target/" />
+    <ignored path="$PROJECT_DIR$/module01/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/module01/project/target/" />
+    <ignored path="$PROJECT_DIR$/module02/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/module02/project/target/" />
+    <ignored path="$PROJECT_DIR$/module03/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/module03/project/target/" />
+    <ignored path="$PROJECT_DIR$/module04/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/module04/project/target/" />
+    <ignored path="$PROJECT_DIR$/module05/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/module05/project/target/" />
+    <ignored path="$PROJECT_DIR$/module06/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/module06/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/exercises_applied$Module02_Exploring_Tuples.ic" NAME="Module02.Exploring Tuples Coverage Results" MODIFIED="1557389226063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="203" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1165659877">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.50" value="3" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="AccessRulesInScala" value="1" />
+          <entry key="Expressions vs statements" value="5" />
+          <entry key="Types In Scala Expressions" value="1" />
+          <entry key="Units and side effects" value="2" />
+          <entry key="sbt" value="1" />
+          <entry key="sc" value="87" />
+          <entry key="scala" value="18" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Scala" value="105" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="AccessRulesInScala" value="2" />
+          <entry key="Expressions vs statements" value="1684" />
+          <entry key="Types In Scala Expressions" value="167" />
+          <entry key="Units and side effects" value="1270" />
+          <entry key="sc" value="53091" />
+          <entry key="scala" value="4111" />
+          <entry key="txt" value="1049" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="4172" />
+          <entry key="Scala" value="57202" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module06/notes/01-simplifying-with-functions.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module06/notes/03-currying-and-multiple-param-lists.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module06/src/test/scala/koans/Module06.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="755">
+              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="44" />
+              <folding>
+                <element signature="e#91#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module06/src/test/scala/koans/support/Test.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module06/src/test/scala/koans/Module06Solutions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module05/src/test/scala/koans/Module05Solutions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1635">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module04/src/test/scala/koans/Module04Solutions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module05/src/test/scala/koans/Module05.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1370">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module06/scripts/06-fruity-loops.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module06/scripts/04-curried-generic-hofs.sc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Script" />
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/module02/scripts/05-RewritingRules.sc" />
+        <option value="$PROJECT_DIR$/module02/src/test/scala/koans/Module02.scala" />
+        <option value="$PROJECT_DIR$/module03/scripts/01-Classes.sc" />
+        <option value="$PROJECT_DIR$/module03/scripts/02-MyRational.scala" />
+        <option value="$PROJECT_DIR$/module03/scripts/02-MyRational.sc" />
+        <option value="$PROJECT_DIR$/module03/scripts/02-MyRationalWithCompanionObjects.sc" />
+        <option value="$PROJECT_DIR$/module03/scripts/AddingIntToRational/02-IntThatCanAddRational.sc" />
+        <option value="$PROJECT_DIR$/module03/scripts/overloadingOperators/AddingIntToRational.sc" />
+        <option value="$PROJECT_DIR$/module03/scripts/AddingIntToRationalImplicitWay/implicitRules.txt" />
+        <option value="$PROJECT_DIR$/module03/scripts/AddingIntToRationalImplicitWay/02-IntThatCanAddRational.sc" />
+        <option value="$PROJECT_DIR$/module03/scripts/AccessRulesInScala" />
+        <option value="$PROJECT_DIR$/module03/src/test/scala/koans/Module03.scala" />
+        <option value="$PROJECT_DIR$/module04/scripts/Expressions vs statements" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/Expressions vs statements" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/Units and side effects" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/ReturningSomethingOtherThanUnit.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/04-match-expressions.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/Types In Scala Expressions" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/ReturnTypesInScalaExpressions.scala" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/ReturnTypesInScalaExpressions.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/WhileLoop.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/For-and-for-yield.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/forExpression/ForExpressionDeeper.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/forExpression/For-expression-Not-JustForLooping.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/MatchExpressions.sc" />
+        <option value="$PROJECT_DIR$/module04/scripts/notes/String-Interpolation.sc" />
+        <option value="$PROJECT_DIR$/module04/src/test/scala/ScratchPad.sc" />
+        <option value="$PROJECT_DIR$/module04/src/test/scala/koans/Module04.scala" />
+        <option value="$PROJECT_DIR$/module05/notes/01-private-functions.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/02-NestedMethods.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/03 - Function Literal.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/AnomyousFunctions.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/How do functions work.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/How do function literals work.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/04-higher-order-functions.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/05-Placeholder Syntax.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/06-partial-application.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/07-closures.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/08-partial-function.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/09-varargs-and-expansion.sc" />
+        <option value="$PROJECT_DIR$/module05/notes/10-default-named-params.sc" />
+        <option value="$PROJECT_DIR$/module05/src/test/scala/koans/Module05.scala" />
+        <option value="$PROJECT_DIR$/module05/src/test/scala/koans/support/Test.sc" />
+        <option value="$PROJECT_DIR$/module06/notes/01-simplifying-with-functions.sc" />
+        <option value="$PROJECT_DIR$/module06/notes/03-currying-and-multiple-param-lists.sc" />
+        <option value="$PROJECT_DIR$/module06/notes/04-curried-generic-hofs.sc" />
+        <option value="$PROJECT_DIR$/module06/notes/05-function-arity.sc" />
+        <option value="$PROJECT_DIR$/module06/notes/06-fruity-loops.sc" />
+        <option value="$PROJECT_DIR$/module06/src/test/scala/koans/Module06.scala" />
+        <option value="$PROJECT_DIR$/module06/src/test/scala/koans/support/Test.sc" />
+        <option value="$PROJECT_DIR$/module04/src/test/scala/koans/Module04Solutions.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="koans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="koans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercises-applied" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises-applied" type="462c0819:PsiDirectoryNode" />
+              <item name="module06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="koans" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558992673067" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Scala" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module04/scripts/notes/forExpression" />
+      <recent name="$PROJECT_DIR$/module04/scripts/notes" />
+      <recent name="$PROJECT_DIR$/module03/scripts/ConstructRationalWithInt" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="ScalaTest.Module06">
+    <configuration name="Module02.Exploring Tuples" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="module02" />
+      <setting name="path" value="koans.Module02" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="koans.Module02" />
+      <setting name="testName" value="Exploring Tuples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module03" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="module03" />
+      <setting name="path" value="koans.Module03" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="koans.Module03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module04" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="module04" />
+      <setting name="path" value="koans.Module04" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="koans.Module04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module05" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="module05" />
+      <setting name="path" value="koans.Module05" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="koans.Module05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module06" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="module06" />
+      <setting name="path" value="koans.Module06" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="koans.Module06" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="ScalaTest.Module02.Exploring Tuples" />
+      <item itemvalue="ScalaTest.Module03" />
+      <item itemvalue="ScalaTest.Module04" />
+      <item itemvalue="ScalaTest.Module05" />
+      <item itemvalue="ScalaTest.Module06" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.Module06" />
+        <item itemvalue="ScalaTest.Module05" />
+        <item itemvalue="ScalaTest.Module04" />
+        <item itemvalue="ScalaTest.Module03" />
+        <item itemvalue="ScalaTest.Module02.Exploring Tuples" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Scala-Applied-Exercises" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="module01 [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module01" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module05 [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module05" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module04 [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module04" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="exercises-applied [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module02 [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module02" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module06 [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module06" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module03 [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module03" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="exercises-applied-build [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module01-build [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module01/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module02-build [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module02/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module03-build [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module03/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module04-build [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module04/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module05-build [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module05/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="module06-build [file:/Users/spachari/Desktop/dickWall/exercises-applied/]" />
+                <option name="path" value="$PROJECT_DIR$/module06/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3050366436000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1150603925" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2509400814" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../data-aws-cds-clickstream-visit-streaming" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data-hde-cas-booking-summary-aggregation" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../data-truffle-shuffle" value="PREVIEW" />
+        <entry key="$USER_HOME$/data-hde-cas-booking-summary-aggregation" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0beebb5-9774-4935-bcb0-7e67cdbb8e0e" name="Default Changelist" comment="" />
+      <created>1557206226110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557206226110</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Module05 - 2019.05.24 at 07h 35m 28s.xml">
+      <configuration name="Module05" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module05 - 2019.05.24 at 07h 36m 47s.xml">
+      <configuration name="Module05" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module05 - 2019.05.25 at 22h 01m 14s.xml">
+      <configuration name="Module05" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module05 - 2019.05.25 at 22h 02m 14s.xml">
+      <configuration name="Module05" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module05 - 2019.05.25 at 22h 08m 34s.xml">
+      <configuration name="Module05" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module05 - 2019.05.25 at 22h 12m 28s.xml">
+      <configuration name="Module05" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module05 - 2019.05.25 at 22h 56m 01s.xml">
+      <configuration name="Module05" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module06 - 2019.05.27 at 10h 34m 16s.xml">
+      <configuration name="Module06" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module06 - 2019.05.27 at 21h 41m 47s.xml">
+      <configuration name="Module06" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Module06 - 2019.05.27 at 21h 51m 52s.xml">
+      <configuration name="Module06" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4473358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3298153" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.7013631" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.28004956" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module04/scripts/05-string-interpolation.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/01-ExpressionsAndStatements.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/Expressions vs statements">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/WhileLoop.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/ReturnTypesInScalaExpressions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/ReturnTypesInScalaExpressions.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/Types In Scala Expressions">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/Units and side effects">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/03-for-and-for-yield.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="63" selection-start-line="63" selection-end-line="65" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/collection/immutable/HashMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/src/test/scala/koans/Module04.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="143" column="7" lean-forward="true" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/forExpression/ForExpressionDeeper.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/forExpression/For-expression-Not-JustForLooping.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="62" column="65" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/forExpression/For-and-for-yield.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/String-Interpolation.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/MatchExpressions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/src/test/scala/ScratchPad.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/ReturningSomethingOtherThanUnit.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/scripts/notes/output2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/scripts/01-private-functions.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/01-private-functions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="75" selection-start-line="75" selection-end-line="91" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/08-partial-function.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="115" column="73" selection-start-line="115" selection-start-column="73" selection-end-line="115" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/06-partial-application.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/04-higher-order-functions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/03-AnomyousFunctions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/03-Function Literal.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/02-NestedMethods.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/05-Placeholder Syntax.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/07-closures.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module03/scripts/AddingIntToRationalImplicitWay/02-IntThatCanAddRational.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/10-default-named-params.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module03/scripts/overloadingOperators/AddingIntToRational.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/09-varargs-and-expansion.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/scripts/05-placeholder-syntax.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module02/scripts/04-Tuples.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/notes/03a-How do function literals work.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/notes/06-fruity-loops.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/notes/05-function-arity.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/notes/04-curried-generic-hofs.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/src/test/scala/koans/support/Test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/notes/01-simplifying-with-functions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/notes/03-currying-and-multiple-param-lists.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/src/test/scala/koans/Module05Solutions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/scripts/06-fruity-loops.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/scripts/04-curried-generic-hofs.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module04/src/test/scala/koans/Module04Solutions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module05/src/test/scala/koans/Module05.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1370">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/src/test/scala/koans/support/Test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/src/test/scala/koans/Module06.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="e#91#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module06/src/test/scala/koans/Module06Solutions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

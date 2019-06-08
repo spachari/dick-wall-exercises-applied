@@ -1,0 +1,22 @@
+Rules for using implicits
+
+1. When we use implicits, scala throws the following warning
+     Advanced language features, that require either explicitly imported feature flag or explicit compiler option to be enabled (SIP-18).
+
+2. We no longer need the overloaded + method (because implicits can by default convert Int to Rational)
+
+3. Implicits are used by Scala to solve type problems
+
+4. implicit conversion has single "in" type and single "out" type
+     implicit def apply(i : Int): Rational = new Rational(i, 1)
+
+5. Companion objects for types involved in type problem (in our example Int and Rational) are one of the places scala looks for implicits
+
+6. implicits in a companion object are hard to "un-invite". Once you put them there, anyone can use it (it may be too general)
+We may decide not to do that. The alternative is, this conversion can to be put somewhere from where we can import it
+
+7. They need to be marked implicit or else they will not be used
+
+8. Names dont matter, only types matter
+
+9. Implicits can also be used in val, object and class, not just defs
